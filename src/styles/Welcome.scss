@@ -1,0 +1,32 @@
+#welcome {
+  background-color: #f2f0e4;
+  height: 100vh;
+  text-align: center;
+  & > div {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: center;
+    & > h1 {
+      font-weight: bold;
+      font-style: normal;
+      margin-bottom: 0;
+    }
+    & > #welcome-text {
+      margin-top: 30px;
+      height: 253px;
+      overflow: auto;
+
+      p {
+        width: 400px;
+      }
+    }
+
+    & > .welcome_getusername {
+      border-radius: 50px;
+      margin-bottom: 10px;
+    }
+  }
+}
