@@ -13,4 +13,26 @@
   p {
     font-size: 14px;
   }
+  img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+  }
+  // .next-btn {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+  //   width: 100px;
+  //   font-size: 14px;
+  // }
+  // .backbtn {
+  //   position: absolute;
+  //   top: 30px;
+  //   left: 30px;
+  // }
+  .phoneInput {
+    input {
+      //   width: 100% !important;
+    }
+  }
 }

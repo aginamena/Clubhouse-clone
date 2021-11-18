@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import PlanLayout from './components/pages/PlanLayout';
 import PhoneConfirmation from './components/pages/PhoneConfirmation';
+import CodeConfirm from './components/pages/CodeConfirm';
+import AllowNotification from './components/pages/AllowNotification';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Welcome />} />
           <Route exact path="/invite" element={<PhoneConfirmation />} />
+          <Route exact path="/code_confirm" element={<CodeConfirm />}></Route>
+          <Route exact path="/allow_notification" element={<AllowNotification />}></Route>
         </Routes>
 
       </div>

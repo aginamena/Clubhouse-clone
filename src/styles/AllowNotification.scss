@@ -1,0 +1,42 @@
+#allowNotification {
+  height: 100vh;
+  background-color: #f2f0e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  #allowNotification_heading2 {
+    font-size: 16px;
+    margin: 10 px auto;
+  }
+  img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
+  & > div {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    width: 350px;
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    #allowNotification_links {
+      border-top: 1px solid lightgray;
+      display: flex;
+      justify-content: space-around;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 10px;
+      a {
+        width: 50%;
+      }
+      #do_not_allow {
+        border-right: 1px solid lightgray;
+      }
+    }
+  }
+}
