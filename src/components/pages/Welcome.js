@@ -17,7 +17,7 @@ function Welcome() {
                     <small>Paul, Rohan & the Clubhouse team</small>
                 </div>
                 <Link to="/get_username" className="btn btn-primary btn-lg welcome_getusername">Get your username</Link>
-                <Link to='/sign-in' id="welcome_signin_btn"><small>Have an invite text? Sign in</small></Link>
+                <Link to='/invite' id="welcome_signin_btn"><small>Have an invite text? Sign in</small></Link>
             </div>
         </div>
     )
